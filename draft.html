@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LOGISTIQUE-BAMARA-LOGISTICS</title>
+  <style>
+    /* Reset & Basic Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    ul {
+      list-style: none;
+    }
+
+    /* Header */
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+    }
+    header .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      font-size: 1.8em;
+    }
+    nav ul {
+      display: flex;
+    }
+    nav ul li {
+      margin-left: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      font-size: 1em;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('logistics-background.jpg') no-repeat center center/cover;
+      height: 400px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+    }
+    .hero-content {
+      position: relative;
+      color: #fff;
+      z-index: 1;
+    }
+    .hero-content h2 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    /* Sections */
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 0;
+    }
+    section {
+      padding: 40px 0;
+    }
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    section p {
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    /* Services */
+    .services-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .service-item {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .service-item h3 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    /* Contact */
+    .contact-info {
+      text-align: center;
+    }
+    .contact-info p {
+      margin: 5px 0;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    /* Responsive Navigation */
+    @media (max-width: 600px) {
+      header .container {
+        flex-direction: column;
+        text-align: center;
+      }
+      nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+      }
+      nav ul li {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <h1>LOGISTIQUE-BAMARA-LOGISTICS</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">À Propos</a></li>
+          <li><a href="#services">Nos Services</a></li>
+          <li><a href="#profile">Profil</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Toujours Vite et Bien</h2>
+      <p>Des solutions logistiques de proximité pour un avenir meilleur</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>À Propos de Nous</h2>
+      <p>
+        LOGISTIQUE-BAMARA-LOGISTICS est une société unipersonnelle à responsabilité limitée de droit Centrafricain, créée en 2017. Nos objectifs sont de fournir des solutions de logistique de proximité, offrir de l'emploi aux jeunes à travers nos prestations, et trouver des solutions logistiques aux problèmes liés à l'environnement.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2>Nos Services</h2>
+      <div class="services-list">
+        <div class="service-item">
+          <h3>Commande sécurisée de véhicules d'occasion</h3>
+          <p>
+            Service spécialisé dans l'achat sécurisé de véhicules d'occasion grâce à une sélection méticuleuse et un processus transparent.
+          </p>
+        </div>
+        <div class="service-item">
+          <h3>Transport et logistique de proximité</h3>
+          <p>
+            Solutions complètes de transport de personnes et de marchandises assurant sécurité et ponctualité.
+          </p>
+        </div>
+        <div class="service-item">
+          <h3>Nettoyage et entretien des locaux</h3>
+          <p>
+            Service professionnel de nettoyage et d'entretien pour maintenir un environnement impeccable.
+          </p>
+        </div>
+        <div class="service-item">
+          <h3>Jardinage et entretien des espaces verts</h3>
+          <p>
+            Création et entretien d'espaces verts esthétiques et fonctionnels.
+          </p>
+        </div>
+        <div class="service-item">
+          <h3>Désinsectisation, désinfection et dératisation</h3>
+          <p>
+            Élimination efficace des insectes nuisibles et des agents pathogènes pour des environnements sains.
+          </p>
+        </div>
+        <div class="service-item">
+          <h3>Enlèvement et traitement d'ordures ménagères</h3>
+          <p>
+            Gestion responsable et écologique des déchets pour maintenir la propreté.
+          </p>
+        </div>
+        <div class="service-item">
+          <h3>Gestion des sites et camps</h3>
+          <p>
+            Supervision complète de sites et de camps pour une maintenance optimale.
+          </p>
+        </div>
+        <div class="service-item">
+          <h3>Réparations mineures</h3>
+          <p>
+            Interventions rapides pour maintenir la fonctionnalité et la sécurité de vos installations.
+          </p>
+        </div>
+        <div class="service-item">
+          <h3>Location de matériel et d'outils divers</h3>
+          <p>
+            Location de matériel, incluant des équipements de sonorisation pour vos événements.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Company Profile Section -->
+  <section id="profile">
+    <div class="container">
+      <h2>Company Profile: LOGISTIQUE-BAMARA-LOGISTICS</h2>
+      <p>
+        <strong>About Us:</strong> Established in 2017 and headquartered in Bangui, Central African Republic (CAR), LOGISTIQUE-BAMARA-LOGISTICS is a dynamic company specializing in proximity logistics, infrastructure management, and tailored business services. Committed to excellence, we deliver secure, efficient, and innovative solutions while actively contributing to youth empowerment through job creation.
+      </p>
+      <p>
+        <strong>Our Mission:</strong> To provide reliable, secure, and rapid logistics services that meet the evolving needs of businesses and individuals. We prioritize quality, safety, and customer satisfaction, alongside fostering sustainable development by creating employment opportunities for young professionals in CAR.
+      </p>
+      <p>
+        <strong>Why Choose Us?</strong>
+      </p>
+      <ul>
+        <li>Fiabilité</li>
+        <li>Sécurité</li>
+        <li>Rapidité</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container contact-info">
+      <h2>Contact</h2>
+      <p><strong>Téléphone:</strong> +236-70503624, +236-72503624, +236-72563624, +236-75563624</p>
+      <p><strong>Email:</strong> bamara_logistics@yahoo.fr, info.logisticsbamara@yahoo.com</p>
+      <p><strong>Adresse:</strong> 1755, Av. Ruth ROLLAND / MISKINE / 5e Arrondissement Walingba-1, Bangui, République Centrafricaine</p>
+      <p>
+        <strong>Informations légales:</strong> RCCM: CA/BG/2017B1147, NIF: M354131Q001, Compte CBCA: 37126088301-62, IBAN : CF42-2000-2002-0037-1260-8830-162, CODE SWIFT: CBCACFCF
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 LOGISTIQUE-BAMARA-LOGISTICS. « Toujours Vite et Bien »</p>
+    </div>
+  </footer>
+
+</body>
+</html>
